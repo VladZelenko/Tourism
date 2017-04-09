@@ -1,0 +1,22 @@
+.header {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../../img/layer-23.png');
+	background-size: cover;
+	color: $primary_font_color;
+	.logo {text-align: center;}
+	.title {
+		margin-top: 0;
+		font: 700 63px $primary_font;
+		text-transform: uppercase;
+	}
+	.pretitle {
+		margin: 200px 0 0 0;
+		color: $secondary_font_color;
+		font: 700 23px $primary_font;
+	}
+	p {
+		max-width: 490px;
+		font: 400 14px/21px $primary_font;
+	}
+}

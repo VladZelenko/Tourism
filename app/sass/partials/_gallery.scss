@@ -1,0 +1,13 @@
+.gallery {
+	padding: 65px 0 75px 0;
+	.title {
+		margin: 0 65px 0 0;
+		float: left;
+		color: $additional_color;
+	}
+	.description {
+		max-width: 680px;
+		min-width: 280px;
+		width: 100%;
+	}
+}

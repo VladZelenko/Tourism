@@ -59,6 +59,9 @@ img {
   max-width: 100%;
   height: auto; }
 
+body {
+  font-family: "Roboto", sans-serif; }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -8323,3 +8326,52 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../img/layer-23.png");
+  background-size: cover;
+  color: #ffffff; }
+  .header .logo {
+    text-align: center; }
+  .header .title {
+    margin-top: 0;
+    font: 700 63px "Roboto", sans-serif;
+    text-transform: uppercase; }
+  .header .pretitle {
+    margin: 200px 0 0 0;
+    color: #b7b7b7;
+    font: 700 23px "Roboto", sans-serif; }
+  .header p {
+    max-width: 490px;
+    font: 400 14px/21px "Roboto", sans-serif; }
+
+.gallery {
+  padding: 65px 0 75px 0; }
+  .gallery .title {
+    margin: 0 65px 0 0;
+    float: left;
+    color: #000000; }
+  .gallery .description {
+    max-width: 680px;
+    min-width: 280px;
+    width: 100%; }
+
+.testimonial {
+  width: 100%;
+  min-height: 325px;
+  padding: 100px 0 95px 0;
+  background-image: url("../../img/layer-31.png");
+  background-size: cover;
+  text-align: center;
+  color: #ffffff; }
+  .testimonial .title {
+    display: inline;
+    padding: 5px;
+    font: 300 23px "Roboto", sans-serif;
+    border: 1px solid #ffffff; }
+  .testimonial p {
+    padding-top: 30px;
+    width: 620px;
+    margin: 0 auto; }

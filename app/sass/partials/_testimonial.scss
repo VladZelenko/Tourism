@@ -1,0 +1,20 @@
+.testimonial {
+	width: 100%;
+	min-height: 325px;
+	padding: 100px 0 95px 0;
+	background-image: url('../../img/layer-31.png');
+	background-size: cover;
+	text-align: center;
+	color: $primary_font_color;
+	.title {
+		display: inline;
+		padding: 5px;
+		font: 300 23px $primary_font;
+		border: 1px solid $primary_font_color;
+	}
+	p {
+		padding-top: 30px;
+		width: 620px;
+		margin: 0 auto;
+	}
+}
