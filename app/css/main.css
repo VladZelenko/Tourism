@@ -8357,6 +8357,11 @@ button.close {
     max-width: 680px;
     min-width: 280px;
     width: 100%; }
+  .gallery .grid .item {
+    padding: 0;
+    margin: 0; }
+  .gallery .grid .item img {
+    width: 100%; }
 
 .testimonial {
   width: 100%;
