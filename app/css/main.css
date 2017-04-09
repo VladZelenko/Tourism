@@ -8373,8 +8373,9 @@ button.close {
     border: 1px solid #ffffff; }
   .testimonial p {
     padding-top: 30px;
-    width: 620px;
-    margin: 0 auto; }
+    max-width: 620px;
+    margin: 0 auto;
+    font: 300 13px/26px "Roboto", sans-serif; }
 
 .statistics {
   padding: 75px 0 125px 0;
@@ -8402,3 +8403,28 @@ button.close {
     .statistics .row p {
       padding-bottom: 10px;
       font: 400 17px "Roboto", sans-serif; }
+
+.footer {
+  width: 100%;
+  min-height: 1020px;
+  padding: 115px 0 105px 0;
+  background-image: url("../../img/layer-32.png");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center; }
+  .footer .title {
+    display: inline;
+    padding: 5px;
+    font: 300 23px "Roboto", sans-serif;
+    border: 1px solid #ffffff; }
+  .footer .description {
+    padding: 35px 0 90px 0;
+    max-width: 620px;
+    margin: 0 auto;
+    font: 300 13px/26px "Roboto", sans-serif; }
+  .footer .video iframe {
+    max-width: 780px;
+    min-width: 280px;
+    width: 100%;
+    min-height: 440px;
+    margin-bottom: 115px; }

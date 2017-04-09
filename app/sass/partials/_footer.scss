@@ -1,0 +1,30 @@
+.footer {
+	width: 100%;
+	min-height: 1020px;
+	padding: 115px 0 105px 0;
+	background-image: url('../../img/layer-32.png');
+	background-size: cover;
+	color: $primary_font_color;
+	text-align: center;
+	.title {
+		display: inline;
+		padding: 5px;
+		font: 300 23px $primary_font;
+		border: 1px solid $primary_font_color;
+	}
+	.description {
+		padding: 35px 0 90px 0;
+		max-width: 620px;
+		margin: 0 auto;
+		font: 300 13px/26px $primary_font;
+	}
+	.video {
+		iframe {
+			max-width: 780px;
+			min-width: 280px;
+			width: 100%;
+			min-height: 440px;
+			margin-bottom: 115px;
+		}
+	}
+}

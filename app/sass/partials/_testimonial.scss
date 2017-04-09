@@ -14,7 +14,8 @@
 	}
 	p {
 		padding-top: 30px;
-		width: 620px;
+		max-width: 620px;
 		margin: 0 auto;
+		font: 300 13px/26px $primary_font;
 	}
 }
